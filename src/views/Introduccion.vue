@@ -32,17 +32,17 @@
               img.mb-4(src='@/assets/curso/unidad/img-4.png', alt='Texto que describa la imagen')
               div.mb-4
                 p.text-small.px-4.text-center.pb-2 Teorías del aprendizaje aplicadas a entornos virtuales.    
-          .col-10.col-md-6.col-lg-4.col-xl-3.mb-4.mx-auto(data-aos="fade-right")
+          .col-10.col-md-6.col-lg-4.col-xl-3.mb-4.mx-auto(data-aos="fade-up")
             div.custom-image-card.rounded-8px
               img.mb-4(src='@/assets/curso/unidad/img-5.png', alt='Texto que describa la imagen')
               div.mb-4
                 p.text-small.px-4.text-center.pb-2 Enfoques pedagógicos innovadores: conectivismo, aprendizaje invertido, gamificación.
-          .col-10.col-md-6.col-lg-4.col-xl-3.mb-4.mx-auto(data-aos="fade-right")
+          .col-10.col-md-6.col-lg-4.col-xl-3.mb-4.mx-auto(data-aos="fade-down")
             div.custom-image-card.rounded-8px
               img.mb-4(src='@/assets/curso/unidad/img-6.png', alt='Texto que describa la imagen')
               div.mb-4
                 p.text-small.px-4.text-center.pb-2 Metodologías activas en educación virtual: aprendizaje basado en proyectos, colaborativo y experiencial.
-          .col-10.col-md-6.col-lg-4.col-xl-3.mb-4.mx-auto(data-aos="fade-right")
+          .col-10.col-md-6.col-lg-4.col-xl-3.mb-4.mx-auto(data-aos="fade-left")
             div.custom-image-card.rounded-8px
               img.mb-4(src='@/assets/curso/unidad/img-7.png', alt='Texto que describa la imagen')
               div.mb-4
