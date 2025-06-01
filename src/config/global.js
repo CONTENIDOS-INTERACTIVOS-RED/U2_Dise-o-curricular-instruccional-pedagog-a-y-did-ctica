@@ -1,8 +1,8 @@
 export default {
   global: {
-    numeroUnidad: '1',
+    numeroUnidad: '2',
     tituloUnidad:
-      'Fundamentos del diseño curricular y la instrucción en entornos virtuales',
+      'Enfoques pedagógicos y didácticos en la innovación educativa',
   },
   menuPrincipal: {
     menu: [
@@ -16,29 +16,15 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo:
-          'Conceptos fundamentales: currículo y diseño instruccional     ',
+        titulo: 'Teorías del aprendizaje aplicadas a entornos virtuales',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Elementos fundamentales del diseño instruccional',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Interrelación entre currículo y diseño instruccional',
-            hash: 't_1_2',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Modelos de diseño curricular para entornos virtuales',
+        titulo: 'Enfoques pedagógicos innovadores',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -46,8 +32,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo:
-          'Componentes del currículo y su adaptación a la educación virtual',
+        titulo: 'Metodologías activas en educación virtual',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -55,8 +40,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo:
-          'Tendencias actuales en educación digital y su impacto en el diseño curricular',
+        titulo: 'Estrategias didácticas para la enseñanza mediada por TIC',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -98,130 +82,120 @@ export default {
   referencias: [
     {
       referencia:
-        'Belloch, C. (S.f.). Diseño Instruccional. Obtenido de https://www.uv.es/bellochc/pedagogia/EVA4.pdf',
-      link: 'https://www.uv.es/bellochc/pedagogia/EVA4.pdf',
-    },
-    {
-      referencia:
-        'UNESCO. (2016). Qué hace el currículo de calidad. Obtenido de UNESDOC Biblioteca Digital: https://unesdoc.unesco.org/ark:/48223/pf0000243975_spa',
-      link: 'https://unesdoc.unesco.org/ark:/48223/pf0000243975_spa',
-    },
-    {
-      referencia:
-        'González Bernal, M. I. (2006). Currículo basado en competencias: una experiencia en educación universitaria. Educación y Educadores , 9 (2), 95-117., 95-117. Obtenido de https://www.redalyc.org/pdf/834/83490209.pdf',
-      link: 'https://www.redalyc.org/pdf/834/83490209.pdf',
-    },
-    {
-      referencia:
-        'Márquez-Fúnes, K., & Florez-Nisperuza, EP. (2021). Perspectivas curriculares y didácticas de las salidas de campo en las licenciaturas en Ciencias Sociales del Caribe. Entramado, 17(1), 136-148. Obtenido de https://doi.org/10.18041/1900-3803/entramado.1.7160',
-      link: 'https://doi.org/10.18041/1900-3803/entramado.1.7160',
-    },
-    {
-      referencia:
-        'Martínez-Sum, S. d. (2019). Diseño, desarrollo e innovación del currículum en la. Proceedings of the Digital World Learning Conference CIEV. Obtenido de http://biblioteca.galileo.edu/tesario/bitstream/123456789/958/1/10.pdf',
+        'Roche, M. Y. (2011). Tecnología educativa: tendencia pedagógica de actualidad: educative technology: present-day pedagogical tendencies. Opuntia Brava, 3(4), 51-57.',
       link:
-        'http://biblioteca.galileo.edu/tesario/bitstream/123456789/958/1/10.pdf',
+        'https://opuntiabrava.ult.edu.cu/index.php/opuntiabrava/article/view/469',
     },
     {
       referencia:
-        'Navarro Reyes, Y. P. (2010). Una mirada a la planificación estratégica curricular. Telos, 12(2), 202-2016. Obtenido de https://www.redalyc.org/pdf/993/99315569006.pdf',
-      link: 'https://www.redalyc.org/pdf/993/99315569006.pdf',
-    },
-    {
-      referencia:
-        'Luna Rizo, M., Ayala Ramírez, S., & Rosas Chávez, P. (2021). El Diseño Instruccional Elemento clave para la Innovación en el Aprendizaje: Modelos y Enfoques. Guadalajara. Obtenido de https://mta.udg.mx/sites/default/files/adjuntos/el_diseno_instruccional_interactivo.pdf',
+        'ProFuturo. (5 de abril de 2024). Modelos pedagógicos en la era digital. ProFuturo:',
       link:
-        'https://mta.udg.mx/sites/default/files/adjuntos/el_diseno_instruccional_interactivo.pdf',
+        'https://profuturo.education/observatorio/enfoques/modelos-pedagogicos-en-la-era-digital/',
     },
     {
       referencia:
-        'García-Pinilla, J. I., Pineda Miranda, B. A., Rodríguez-Jiménez, O. R., & Nicholls-Rodríguez, D. (2023). Desarrollo de competencias tecnológicas en docentes utilizando un modelo de diseño instruccional. Educación y Educadores, 26(1), e2613. https://doi.org/10.5294/edu.2023.26.1.3',
-      link: 'https://doi.org/10.5294/edu.2023.26.1.3',
-    },
-    {
-      referencia:
-        'Lima, M. G. (2010). El modelo de diseño instruccional ASSURE aplicado a la educación a distancia. Tlatemoani: revista académica de investigación. Obtenido de https://dialnet.unirioja.es/servlet/articulo?codigo=7302838',
-      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=7302838',
-    },
-    {
-      referencia:
-        'Molenda, M. (2003). En busca del esquivo modelo ADDIE. Indiana. Obtenido de https://www.researchgate.net/publication/251405713_In_search_of_the_elusive_ADDIE_model',
+        'udax. (2023). Explorando los Enfoques Pedagógicos del siglo XXI: Transformaciones e Innovaciones Educativas. Pedagogía y Educación.',
       link:
-        'https://www.researchgate.net/publication/251405713_In_search_of_the_elusive_ADDIE_model',
+        'https://udax.edu.mx/experiencia/pedagogia-y-educacion/explorando-los-enfoques-pedagogicos-del-siglo-xxi',
     },
     {
       referencia:
-        'Gimeno Sacristán, J. (2010). ¿Qué significa el currículum? Sinéctica(34). Obtenido de https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S1665-109X2010000100009',
+        'Éxito Educativo. (31 de mayo de 2023). Redefiniendo la educación: La importancia de los enfoques innovadores en tiempos de crisis. Información educativa y gestión:',
+      link: 'https://exitoeducativo.net/importancia-enfoques-innovadores/',
+    },
+    {
+      referencia:
+        'Illera, J. L. (2001). Aprendizaje colaborativo en entornos virtuales. Anuario de psicología/The UB Journal of psychology, 63-76.',
       link:
-        'https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S1665-109X2010000100009',
+        'https://www.raco.cat/index.php/AnuarioPsicologia/article/download/61669/88436',
     },
     {
       referencia:
-        'Ministerio de Educación Nacional. (S.f). Currículo. Obtenido de https://www.mineducacion.gov.co/1621/article-79413.html#:~:text=Curr%C3%ADculo%20es%20el%20conjunto%20de,las%20pol%C3%ADticas%20y%20llevar%20a',
-      link: 'https://www.mineducacion.gov.co/1621/article-79413.html',
-    },
-    {
-      referencia:
-        'Núñez, M. E. (2016). Tendencias en la personalización de los entornos de aprendizaje. Universidades, 66(70), 69-88. Obtenido de http://udualerreu.org/index.php/universidades/article/download/427/417',
+        'Espinar Álava, E. M. (2020). El aprendizaje experiencial y su impacto en la educación actual. Revista cubana de educación superior, 39(3).',
       link:
-        'http://udualerreu.org/index.php/universidades/article/download/427/417',
+        'http://scielo.sld.cu/scielo.php?pid=S0257-43142020000300012&script=sci_arttext',
     },
     {
       referencia:
-        'Viviana Betancur-Chicué, V. (2023). Características del Diseño de Estrategias de microaprendizaje en escenarios educativos: revisión sistemática. RIED-Revista Iberoamericana de Educación a Distancia, 201-222. Obtenido de https://revistas.uned.es/index.php/ried/article/view/34056',
-      link: 'https://revistas.uned.es/index.php/ried/article/view/34056',
+        'García-Valcárcel, A. &. (2017). Competencias del profesorado para el uso de las TIC en la enseñanza. Pixel-Bit. Revista de Medios y Educación (50), 109–124.',
+      link: 'https://ri.conicet.gov.ar/handle/11336/67065',
+    },
+    {
+      referencia:
+        'Viñals Blanco, A. &. (2016). El rol del docente en la era digital. Revista Interuniversitaria de Formación del Profesorado, 03-114 , 2016.',
+      link: 'https://www.redalyc.org/journal/274/27447325008/html/',
+    },
+    {
+      referencia:
+        'Cerezo-Santana, K. Y.-M.-M.-B. (2025). Impacto de la brecha digital en el proceso enseñanza-aprendizaje. MQRInvestigar, 9(1).',
+      link: 'http://mqrinvestigar.com/2025/index.php/mqr/article/view/407',
     },
   ],
   glosario: [
     {
-      termino: 'Competencias',
+      termino: 'Aprendizaje Basado en Proyectos (ABP)',
       significado:
-        'Comportamientos y actitudes transversales a diferentes ámbitos de la actividad personal y laboral, integrando conocimientos, habilidades y actitudes.',
+        'Metodología activa en la que los estudiantes trabajan en un proyecto para investigar y responder a una pregunta o problema complejo.',
     },
     {
-      termino: 'Contenidos',
+      termino: 'Aprendizaje Colaborativo',
       significado:
-        'Saberes, informaciones, conceptos, procedimientos y actitudes que se seleccionan y organizan para facilitar el logro de los objetivos educativos.',
+        'Metodología en la que los estudiantes trabajan juntos en grupos para lograr un objetivo de aprendizaje común.',
     },
     {
-      termino: 'Currículo',
+      termino: 'Aprendizaje Experiencial',
       significado:
-        'Conjunto de criterios, planes de estudio, programas, metodologías y procesos que contribuyen a la formación integral. También se refiere a las experiencias, actividades, materiales y métodos de enseñanza utilizados para alcanzar los fines de la educación.',
+        'Metodología que enfatiza el aprendizaje a través de la experiencia directa y la reflexión sobre esa experiencia.',
     },
     {
-      termino: 'Diseño Instruccional',
+      termino: 'Aprendizaje Invertido (Flipped Learning)',
       significado:
-        'Proceso sistemático para desarrollar experiencias educativas de manera consistente y confiable, creando aprendizajes efectivos. Se ocupa de la planeación, preparación y diseño de recursos y ambientes necesarios para el aprendizaje.',
+        'Modelo pedagógico que traslada la instrucción directa fuera del aula y utiliza el tiempo de clase para actividades de aprendizaje activo y aplicación de conocimientos.',
     },
     {
-      termino: 'Entornos Virtuales de Aprendizaje (EVA)',
+      termino: 'Conectivismo',
       significado:
-        'Espacio educativo alojado en la web, conformado por herramientas informáticas que posibilitan la interacción didáctica.',
+        'Teoría del aprendizaje que enfatiza la importancia de las conexiones en redes, la diversidad de opiniones y la capacidad de aprender y adaptarse en la era digital.',
     },
     {
-      termino: 'Evaluación',
+      termino: 'Didáctica',
       significado:
-        'Proceso para controlar y reformular el proceso educativo, identificando el progreso de los estudiantes y mejorando la enseñanza.',
+        'Rama de la pedagogía que se enfoca en las técnicas y métodos específicos de enseñanza para facilitar el aprendizaje en diferentes disciplinas y niveles educativos.',
+    },
+    {
+      termino: 'Diseño Curricular Instructivo',
+      significado:
+        'Proceso sistemático para crear experiencias de aprendizaje efectivas y eficientes, que incluye el análisis de necesidades, la definición de objetivos, la selección de estrategias y recursos, y la evaluación de los resultados.',
+    },
+    {
+      termino: 'Entorno Virtual de Aprendizaje (EVA)',
+      significado:
+        'Espacio en línea diseñado para facilitar la interacción entre estudiantes y profesores, así como el acceso a materiales y actividades de aprendizaje.',
     },
     {
       termino: 'Gamificación',
       significado:
-        'Incorporación de elementos de diseño de juegos en contextos no lúdicos para aumentar la motivación y el compromiso.',
+        'Uso de elementos y mecánicas de juego en contextos no lúdicos para aumentar la motivación, el compromiso y el aprendizaje.',
     },
     {
-      termino: 'Metodología',
+      termino: 'Innovación Educativa',
       significado:
-        'Conjunto de estrategias, técnicas y actividades que se utilizan para desarrollar los contenidos y alcanzar los objetivos.',
+        'Proceso deliberado y estratégico que busca optimizar el sistema educativo a través de la introducción de nuevas ideas, enfoques, métodos o tecnologías, con el objetivo de mejorar la calidad del aprendizaje y promover el desarrollo integral de los estudiantes.',
     },
     {
-      termino: 'Objetivos de Aprendizaje',
+      termino: 'Metodología Activa',
       significado:
-        'Metas o propósitos que se pretenden alcanzar con el proceso educativo, expresando las competencias, conocimientos, habilidades, actitudes y valores a desarrollar.',
+        'Enfoque pedagógico que involucra activamente a los estudiantes en el proceso de aprendizaje a través de tareas prácticas, la resolución de problemas y la colaboración.',
     },
     {
-      termino: 'Resultados de Aprendizaje',
+      termino: 'Pedagogía',
       significado:
-        'Declaraciones expresas de lo que se espera que un estudiante conozca y demuestre al completar un programa académico.',
+        'Ciencia de la educación que estudia los métodos de enseñanza y aprendizaje, así como los principios y teorías que los sustentan.',
+    },
+    {
+      termino: 'Teoría del Aprendizaje',
+      significado:
+        'Conjunto de principios y modelos que explican cómo las personas adquieren, procesan y retienen el conocimiento y las habilidades.',
     },
   ],
 }

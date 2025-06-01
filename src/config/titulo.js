@@ -1,2 +1,1 @@
-module.exports =
-  'Fundamentos del diseño curricular y la instrucción en entornos virtuales'
+module.exports = 'Enfoques pedagógicos y didácticos en la innovación educativa'

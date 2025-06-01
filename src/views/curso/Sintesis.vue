@@ -2,7 +2,9 @@
   .curso-main-container.creditos-vista
     BannerInterno(subTitulo="SÍNTESIS")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      p(data-aos="fade-up").mb-5 La unidad 1: Fundamentos del diseño curricular y la instrucción en entornos virtuales, proporciona una base conceptual sólida para comprender la planificación educativa en contextos digitales. A lo largo de esta unidad, se exploran las nociones de currículo e instrucción, sus componentes esenciales y su adaptación a la educación virtual, así como los principales modelos pedagógicos orientados al aprendizaje en línea. Este enfoque integral permite a los estudiantes diseñar experiencias formativas flexibles, significativas y centradas en el estudiante, respondiendo a las demandas de la educación contemporánea.
+      p(data-aos="fade-up").mb-4 La unidad 2: Enfoques pedagógicos y didácticos en la innovación educativa, ofrece un panorama integral de las teorías del aprendizaje y los enfoques contemporáneos que sustentan la transformación de los procesos formativos en entornos virtuales. A través del análisis del conductismo, cognitivismo, constructivismo y conectivismo, esta unidad permite comprender cómo los estudiantes aprenden en contextos digitales y cómo los docentes pueden diseñar experiencias efectivas y significativas.
+
+      p(data-aos="fade-up").mb-5 Además, se abordan enfoques innovadores como el aprendizaje invertido, la gamificación y las metodologías activas —basadas en proyectos, colaborativas y experienciales—, resaltando su potencial para promover un aprendizaje autónomo, participativo y orientado a la solución de problemas reales. Finalmente, se presentan estrategias didácticas mediadas por TIC que integran herramientas digitales para facilitar la enseñanza y fortalecer competencias clave del siglo XXI.
 
       .row.justify-content-center
         .col-lg-12.mb-5

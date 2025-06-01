@@ -1,96 +1,90 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'2. Modelos de diseño curricular para entornos virtuales'")
+    BannerInterno(:subTitulo="'2. Enfoques pedagógicos innovadores'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
-      .row.mb-4
-        .col-2.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-39.png', alt='Texto que describa la imagen')
-        .col-12.col-xl-10.d-flex
-          p.my-auto En el ámbito de la educación virtual, diversos modelos de diseño curricular proporcionan marcos conceptuales para la planificación y el desarrollo de programas y cursos en línea. <b>Un modelo curricular se define como una estructura conceptual y organizativa que sirve como guía para diseñar, desarrollar e implementar planes de estudio y programas educativos</b>, orientando las decisiones sobre qué contenido enseñar, cómo enseñarlo y cómo evaluar el aprendizaje. Estos modelos pueden variar según los enfoques pedagógicos, las filosofías educativas y los objetivos de aprendizaje que se persigan:
+
+      p.mb-4 En el ámbito de la innovación educativa, diversos enfoques pedagógicos han ganado prominencia por su potencial para transformar la manera en que se concibe y se lleva a cabo el proceso de enseñanza-aprendizaje. Entre estos enfoques destacan:
+
+      ImagenInfografica.color-secundario.mb-4.bg-white
+        template(v-slot:imagen)
+          figure
+            img(src='@/assets/curso/unidad/img-18.png', alt='Descripción de la imagen')
+        .tarjeta.bg-white.p-4(x='16.7%' y='21.8%' numero='+')
+          .h5.mb-2 Gamificación
+          p Aplicación de elementos y mecánicas de juego, como puntos, insignias, narrativas, en contextos no lúdicos, como la educación, con el objetivo de aumentar la motivación y el aprendizaje.
+        .tarjeta.bg-white.p-4(x='77.5%' y='21.4%' numero='+')
+          .h5.mb-2 Conectivismo
+          p El aprendizaje es un proceso de formación de conexiones en redes, donde la diversidad de opiniones juega un papel crucial.
+        .tarjeta.bg-white.p-4(x='18.5%' y='63.3%' numero='+')
+          .h5.mb-2 Aprendizaje invertido
+          p Trasladar la instrucción directa, generalmente impartida en el aula, fuera de ella, a través de recursos digitales.
+
+      p.mb-4 Ampliemos la información sobre cada uno de estos enfoques pedagógicos:
 
       .row.mb-4
+        .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
+          img(src='@/assets/curso/unidad/img-19.png', alt='Texto que describa la imagen')
         .col-12.col-lg-7.col-xl-8
           AcordionA(tipo="b")
-            .div(titulo="Modelo tecnológico")
-              p En el ámbito de la educación virtual, uno de los modelos más utilizados es el modelo tecnológico, el cual se enfoca en la definición de objetivos educativos específicos, la identificación de contenidos que permitan alcanzarlos y la selección de recursos y medios adecuados para su implementación. Este modelo se caracteriza por su estructura lineal, su enfoque en la eficiencia del proceso educativo y la evaluación cuantificable de los resultados, lo que lo convierte en una herramienta útil para la planificación y el control del aprendizaje.
-            .div(titulo="Modelo comunicativo-interactivo ")
-              p El modelo comunicativo-interactivo se distingue por utilizar la investigación científica para organizar el proceso de aprendizaje, otorgando al estudiante un papel activo, reflexivo y responsable hacia su propio aprendizaje y su realidad. Este enfoque se alinea mejor con las filosofías pedagógicas constructivistas y conectivistas, que son particularmente relevantes en entornos virtuales donde la interacción y la colaboración juegan un papel crucial.
-            .div(titulo="Modelo curricular basado en competencias")
-              p El modelo curricular basado en competencias ha ganado una gran relevancia en la educación virtual, dado que se centra en el desarrollo de habilidades y capacidades específicas que los estudiantes deben adquirir para desempeñarse de manera efectiva en contextos reales. Este modelo exige colocar al estudiante en el centro del proceso de aprendizaje, otorgándole un papel activo en la construcción de sus propias competencias. Los objetivos del currículo se definen en términos de competencias y capacidades, abarcando el desarrollo de habilidades cognitivas, motrices e interpersonales. Las competencias se entienden como comportamientos y actitudes transversales a diferentes ámbitos de la actividad personal y laboral, integrando conocimientos ("saber"), habilidades ("saber hacer") y actitudes ("saber ser"). El diseño curricular basado en competencias se centra en el perfil profesional de egreso, recogiendo las necesidades y realidades del ámbito internacional y nacional en diversos campos. Un enfoque de diseño curricular basado en competencias considera tanto las competencias previas de los estudiantes como las competencias que se espera que adquieran al finalizar el programa.
-            .div(titulo="Modelo basado en resultados de aprendizaje")
-              p Este modelo se centra en definir claramente lo que los estudiantes deben saber y ser capaces de hacer al finalizar un curso o programa. Para Bobbit, el currículo se presenta como una descripción de objetivos a lograr a través de procedimientos específicos, y Taylor enfatiza que el currículo debe responder a los fines, a los logros de experiencias, a los modos de alcanzar esos fines y a las maneras de comprobarlo. Los resultados de aprendizaje deben enunciarse de manera clara y precisa, mostrando conductas observables.<br><br>En este modelo, los resultados de aprendizaje se convierten en el eje articulador, guiando la secuencia de las actividades, la selección de los recursos y las estrategias de evaluación. Se recomienda que la redacción de los logros de aprendizaje se oriente hacia el logro de procesos cognitivos complejos y sea específica en su formulación. Los logros o resultados de aprendizaje están orientados a un fin, centrados en el estudiante, enfatizando su éxito presente y futuro, y demandando objetivos claros, explícitos y significativos, incorporando retroalimentación continua para la evaluación y la revisión.
+            .div(titulo="Conectivismo")
+              p El conectivismo se fundamenta en la idea de que el aprendizaje es un proceso de formación de conexiones en redes, donde la diversidad de opiniones juega un papel crucial (Udax, 2023) . Este enfoque reconoce que el aprendizaje puede residir en artefactos no humanos, y que la capacidad de saber dónde encontrar información relevante, resulta más crítica que la mera posesión de conocimientos actuales. <br><br>En la práctica, el conectivismo se aplica en la innovación educativa al fomentar la creación de redes de aprendizaje personalizadas, al utilizar herramientas en línea, para conectar a los estudiantes con expertos y recursos diversos, y al promover el aprendizaje colaborativo y la construcción colectiva de conocimiento.
+            .div(titulo="Aprendizaje invertido")
+              p El aprendizaje invertido se basa en el principio de trasladar la instrucción directa, generalmente impartida en el aula, fuera de ella, normalmente a través de recursos digitales como videos o lecturas. De esta manera, el tiempo de clase se utiliza para actividades de aprendizaje activo, discusión, resolución de problemas y aplicación de los conocimientos adquiridos previamente. <br><br>Este enfoque pedagógico innovador, permite personalizar el aprendizaje, puesto que los estudiantes pueden acceder a los materiales de instrucción a su propio ritmo y revisar el contenido cuantas veces sea necesario (Udax, 2023) . Además, maximiza las interacciones significativas en el aula, porque el docente puede dedicar tiempo para atender las necesidades individuales de los estudiantes, facilitar la colaboración y guiar la aplicación práctica de los conceptos. <br><br>El aprendizaje invertido también fomenta la autonomía y la responsabilidad del estudiante en su propio proceso de aprendizaje.
+            .div(titulo="Gamificación")
+              p La gamificación consiste en la aplicación de elementos y mecánicas de juego, como puntos, insignias, niveles, desafíos y narrativas, en contextos no lúdicos, como la educación, con el objetivo de aumentar la motivación, el compromiso y el aprendizaje. Al convertir el aprendizaje en una experiencia más interactiva y atractiva, la gamificación fomenta la participación activa de los estudiantes y los motiva a perseverar en la consecución de los objetivos de aprendizaje (Éxito Educativo, 2023).<br><br>La retroalimentación inmediata que, con frecuencia, se proporciona en los entornos gamificados, ayuda a los estudiantes a comprender su progreso e identificar áreas donde necesitan mejorar.
 
-        .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
-          img(src='@/assets/curso/unidad/img-40.png', alt='Texto que describa la imagen')
+      .row.mb-4
+        .col-12.col-xl-9
+          p.mb-4 La implementación exitosa de estos enfoques pedagógicos innovadores, por lo general depende del uso efectivo de la tecnología. El conectivismo, por ejemplo, se nutre de herramientas en línea, para la creación de redes y el intercambio de información. El aprendizaje invertido se apoya en recursos digitales para la instrucción fuera del aula, y la gamificación frecuentemente utiliza plataformas digitales para ofrecer experiencias interactivas y realizar un seguimiento del progreso.
+          .bg-amarillo.p-4
+            span Esta interconexión entre la innovación pedagógica y la integración tecnológica subraya la necesidad de que los educadores desarrollen competencias tanto en el ámbito pedagógico como en el tecnológico, para implementar estos enfoques de manera efectiva. 
 
-      p.mb-4 En la siguiente tabla se presenta una comparación de las características principales, ventajas y desventajas de los modelos de diseño curricular basados en competencias y por resultados de aprendizaje, en el contexto de los entornos virtuales:
+        .col-3.d-none.d-xl-block
+          img(src='@/assets/curso/unidad/img-20.png', alt='Texto que describa la imagen')
 
-      p.mb-4 <b>Tabla 1.</b> Comparación de los modelos de diseño curricular, basado en competencias y resultados de aprendizaje
+      .d-flex.bg-morado-oscuro.bg-full-width.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
+        img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-21.svg', alt='Texto descriptivo de la imagen')
+        .my-auto.p-4.p-xl-0
+          p.px-4.mb-0.text-white Observa en la siguiente tabla los elementos claves como el proceso de aprendizaje, los roles de estudiantes y profesor, las ventajas y los desafíos, en relación con cada enfoque pedagógico, visto anteriormente.
+      
+      p.mb-4 <b>Tabla 2.</b> Enfoques pedagógicos innovadores, su relación con los elementos claves, ventajas y desafíos
 
-      .tabla-a
+      .tabla-a.mb-5
         table
           thead
             tr
-              th(width="20%").bg-morado-2.text-white.text-center Característica
-              th.bg-morado-2.text-white.text-center Modelo basado en competencias
-              th.bg-morado-2.text-white.text-center Modelo por resultados de aprendizaje
+              th.bg-morado-2.text-white.text-center Elemento clave
+              th.bg-morado-2.text-white.text-center Conectivismo
+              th.bg-morado-2.text-white.text-center Aprendizaje invertido
+              th.bg-morado-2.text-white.text-center Gamificación
           tbody
             tr
-              td.text-bold Enfoque
-              td.text-center Desarrollo de habilidades y capacidades.
-              td.text-center Logro de conocimientos y habilidades específicas.
+              td.text-bold.bg-morado-2-claro Proceso de aprendizaje. 
+              td.bg-morado-2-claro.text-center Formación de conexiones en redes, aprendizaje distribuido, flujo de información.
+              td.bg-morado-2-claro.text-center Instrucción directa fuera del aula, aplicación y profundización del conocimiento en el aula.
+              td.bg-morado-2-claro.text-center Uso de elementos y mecánicas de juego en contextos no lúdicos, para fomentar la participación y el aprendizaje.
             tr
-              td.text-bold Objetivos
-              td.text-center Definidos como competencias integradas.
-              td.text-center Definidos como resultados observables y medibles.
+              td.text-bold.bg-morado-2-claro Rol del estudiante.
+              td.bg-morado-2-claro.text-center Aprendiz autónomo, creador y mantenedor de su propia red de aprendizaje, evaluador crítico de la información.
+              td.bg-morado-2-claro.text-center Aprendiz activo y responsable, gestiona su aprendizaje fuera del aula y participa activamente en las actividades de clase.
+              td.bg-morado-2-claro.text-center Participante activo y motivado, se involucra en desafíos y busca alcanzar recompensas.
             tr
-              td.text-bold Evaluación
-              td.text-center Basada en el desempeño y la aplicación.
-              td.text-center Puede incluir diversas metodologías.
+              td.text-bold.bg-morado-2-claro Rol del instructor.
+              td.bg-morado-2-claro.text-center Conector de nodos de información, facilitador de la creación de redes, guía en la navegación y evaluación de la información.
+              td.bg-morado-2-claro.text-center Diseñador de recursos para el aprendizaje fuera del aula, facilitador de actividades en clase, guía y mentor.
+              td.bg-morado-2-claro.text-center Diseñador de experiencias de aprendizaje atractivas y desafiantes, proveedor de retroalimentación y recompensas.
             tr
-              td.text-bold Énfasis
-              td.text-center Aplicación práctica y relevancia real.
-              td.text-center Claridad y medición de logros.
+              td.text-bold.bg-morado-2-claro Ventajas.
+              td.bg-morado-2-claro.text-center Fomenta el aprendizaje continuo y la adaptación al cambio, desarrolla habilidades de alfabetización digital, promueve el aprendizaje colaborativo a gran escala.
+              td.bg-morado-2-claro.text-center Permite personalizar el aprendizaje, maximiza el tiempo de clase para la interacción y la aplicación, fomenta la autonomía y la responsabilidad del estudiante.
+              td.bg-morado-2-claro.text-center Aumenta la motivación y el compromiso, proporciona retroalimentación inmediata, facilita la comprensión de conceptos complejos, a través de la interacción lúdica.
             tr
-              td.text-bold Flexibilidad
-              td.text-center Permite rutas de aprendizaje personalizadas.
-              td.text-center Estructura clara para el diseño y la evaluación.
-            tr
-              td.text-bold Ventajas en entornos virtuales
-              td.text-center Ideal para desarrollar habilidades digitales y evaluaciones auténticas.
-              td.text-center Facilita la alineación con actividades y recursos en línea; uso de LMS.
-            tr
-              td.text-bold Desventajas en entornos virtuales
-              td.text-center Definición y evaluación complejas en línea; requiere recursos para evaluaciones de desempeño.
-              td.text-center Puede enfocarse más en la adquisición de conocimiento que en habilidades prácticas.
+              td.text-bold.bg-morado-2-claro Desafíos.
+              td.bg-morado-2-claro.text-center Requiere habilidades de autogestión y evaluación crítica de la información por parte del estudiante, puede generar sobrecarga informativa, demanda una infraestructura tecnológica adecuada.
+              td.bg-morado-2-claro.text-center Requiere que los estudiantes se involucren activamente con los materiales fuera del aula, puede aumentar la brecha digital si no se proporcionan recursos adecuados, exige una planificación cuidadosa de las actividades en clase.
+              td.bg-morado-2-claro.text-center Requiere un diseño cuidadoso para asegurar que los elementos de juego se alineen con los objetivos de aprendizaje, puede generar una competencia excesiva o desmotivación si no se implementa correctamente, demanda creatividad por parte del diseñador.
 
-      .row.mb-4
-        .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-41.png', alt='Texto que describa la imagen')
-        .col-12.col-xl-8
-          .bg-amarillo.p-4.mb-4(data-aos='fade-up')
-            span Un ejemplo de la aplicación del modelo basado en competencias en un entorno virtual, podría ser un curso de desarrollo de software, donde los estudiantes deben demostrar competencias específicas en programación, a través de proyectos prácticos y la creación de un portafolio en línea. En contraste, un curso de historia en línea diseñado bajo el modelo por resultados de aprendizaje podría establecer resultados claros como "analizar las causas de la Revolución Francesa" y evaluar este resultado a través de ensayos, foros de discusión y exámenes en línea. La elección del modelo dependerá de los objetivos específicos del curso y de la filosofía pedagógica de la institución.
-          span Revisemos un resumen sobre estos tipos de modelos:
-
-      ImagenInfografica.color-secundario.mb-5.bg-white
-        template(v-slot:imagen)
-          figure
-            img(src='@/assets/curso/unidad/img-42.png', alt='Descripción de la imagen')
-        .tarjeta.bg-white.p-4(x='33.9%' y='25%' numero='+')
-          .h5.mb-2 Modelo basado en competencias
-          p Se enfoca en habilidades aplicadas a contextos reales y articula necesidades del entorno profesional.<br><br>Útil para formar profesionales adaptables y competentes.
-        .tarjeta.bg-white.p-4(x='66%' y='32%' numero='+')
-          .h5.mb-2 Modelo basado en resultados
-          p Define claramente los saberes y habilidades observables para asegurar el logro del aprendizaje.<br><br>Clave en sistemas de educación por logros.
-        .tarjeta.bg-white.p-4(x='64%' y='73.2%' numero='+')
-          .h5.mb-2 Modelo comunicativo-interactivo
-          p Centrado en el estudiante activo, promueve la reflexión y colaboración en entornos dinámicos.<br><br>Perfecto para entornos virtuales dinámicos y participativos.
-        .tarjeta.bg-white.p-4(x='36%' y='72.9%' numero='+')
-          .h5.mb-2 Modelo tecnológico
-          p Enfoque lineal y estructurado basado en objetivos conductuales, priorizando eficiencia y evaluación de resultados.<br><br>Ideal para procesos formativos con metas claras y medibles.
-
-      
       .bg-full-width.border-top-9-azul
         .px-5.pt-5.pb-0
           h2 Material complementario
@@ -98,16 +92,17 @@
             .col-12.col-md-6.col-lg-8
               p.d-flex.my-4
                 img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://www.scielo.org.mx/scielo.php?pid=S1665-26732012000300007&script=sci_arttext") Martínez Alonso, G. F., Báez Villarreal, E., Garza Garza, J. Á., Treviño Cubero, A., & Estrada Salazar, F. (2012). Implementación de un modelo de diseño curricular basado en competencias, en carreras de ingeniería. Innovación educativa (México, DF), 12(60), 87-103.
+                a.text-small.text-primary(target="_blank", href="https://dialnet.unirioja.es/servlet/articulo?codigo=7539680") Baque, P. G. C., & García, C. E. M. (2020). Estrategias pedagógicas innovadoras en entornos virtuales de aprendizaje. Dominio de las Ciencias, 6(3), 56-77.
+              
               p.d-flex.my-4
                 img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://youtu.be/Ipn5S_eiR9s?si=hT8O5RqxTramH-EQ") [Vídeo] ULLaudiovisual - Universidad de La Laguna. (2022, 11 de noviembre) Modelos didácticos de las aulas virtuales: teoría y recomendaciones prácticas.
+                a.text-small.text-primary(target="_blank", href="https://www.youtube.com/live/iVtAA4oQbp4?si=rfEWy4-fdvx9jL8U") [Vídeo] INTEF (2020). Diseño de experiencias de aprendizaje para la educación a distancia.
+              
             .col-12.col-md-6.col-lg-3
               figure
                 img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
 
-
-      
+      p
      
   
   </template>
