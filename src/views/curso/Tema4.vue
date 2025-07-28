@@ -10,7 +10,7 @@
         div.px-5.pb-md-3
           figure
             .video
-              iframe(width='560' height='315' src='https://www.youtube.com' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen)
+              <iframe width="1905" height="748" src="https://www.youtube.com/embed/597E09ifSBc" title="Estrategias didácticas para la enseñanza medidas por TIC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
       .d-flex.bg-azul.bg-full-width.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
         img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-31.svg', alt='Texto descriptivo de la imagen')
